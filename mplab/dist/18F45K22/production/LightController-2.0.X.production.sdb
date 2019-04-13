@@ -1,0 +1,2092 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"49 D:\GitHub\LightControl\mplab\scenes.c
+[e E5812 _ddimstate `uc
+DIMSTATE_IDLE 0
+DIMSTATE_UP 1
+DIMSTATE_REVERSEUP 2
+DIMSTATE_DOWN 3
+DIMSTATE_REVERSEDOWN 4
+DIMSTATE_DELAYED_UP 5
+]
+"24 D:\GitHub\LightControl\mplab\dimengine.c
+[e E5812 _ddimstate `uc
+DIMSTATE_IDLE 0
+DIMSTATE_UP 1
+DIMSTATE_REVERSEUP 2
+DIMSTATE_DOWN 3
+DIMSTATE_REVERSEDOWN 4
+DIMSTATE_DELAYED_UP 5
+]
+"30 D:\GitHub\LightControl\mplab\buttons.c
+[v _initButtonHardware initButtonHardware `(v  1 e 1 0 ]
+"84
+[v _testRC2Errors testRC2Errors `(v  1 e 1 0 ]
+"14 D:\GitHub\LightControl\mplab\buttons.h
+[s S799 button 3 `uc 1 buttonNumber 1 0 `uc 1 assignedScene 1 1 `uc 1 buttonMode 1 2 :1:0 
+`uc 1 isActive 1 2 :1:1 
+`uc 1 watchdog 1 2 :4:2 
+]
+"105 D:\GitHub\LightControl\mplab\buttons.c
+[v _findButton findButton `(*.39S799  1 e 2 0 ]
+"123
+[v _initAllButtons initAllButtons `(v  1 e 1 0 ]
+"143
+[v _initButton initButton `(v  1 e 1 0 ]
+"194
+[v _decodeButton decodeButton `(v  1 e 1 0 ]
+"210
+[v _buttonsReset buttonsReset `(v  1 e 1 0 ]
+"240
+[v _registerButton registerButton `(v  1 e 1 0 ]
+"254
+[v _storeAButton storeAButton `(v  1 e 1 0 ]
+"260
+[v _readAButton readAButton `(v  1 e 1 0 ]
+"271
+[v _getLastPressedKey getLastPressedKey `(uc  1 e 1 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"16 D:\GitHub\LightControl\mplab\dimengine.c
+[v _initDimEngine initDimEngine `(v  1 e 1 0 ]
+"39
+[v _dimEngineStep dimEngineStep `(v  1 e 1 0 ]
+"108
+[v _initDimToTargetScene initDimToTargetScene `(v  1 e 1 0 ]
+"141
+[v _prepareDim prepareDim `(v  1 e 1 0 ]
+"161
+[v _initDimToZero initDimToZero `(v  1 e 1 0 ]
+"182
+[v _dimStop dimStop `(v  1 e 1 0 ]
+"207
+[v _calcAndSetIncrement calcAndSetIncrement `(v  1 e 1 0 ]
+"225
+[v _getChannelLevel getChannelLevel `(uc  1 e 1 0 ]
+[v i2_getChannelLevel getChannelLevel `(uc  1 e 1 0 ]
+"231
+[v _setChannelLevel setChannelLevel `(v  1 e 1 0 ]
+"23 D:\GitHub\LightControl\mplab\dmx.c
+[v _initDMXSend initDMXSend `(v  1 e 1 0 ]
+"54
+[v _sendDMX sendDMX `(v  1 e 1 0 ]
+"37 D:\GitHub\LightControl\mplab\fifo.c
+[v _fifoInit fifoInit `(v  1 e 1 0 ]
+"63
+[v _fifo1Get fifo1Get `(uc  1 e 1 0 ]
+"67
+[v _fifo2Get fifo2Get `(uc  1 e 1 0 ]
+"71
+[v _fifo3Get fifo3Get `(uc  1 e 1 0 ]
+"82
+[v _fifo1Put fifo1Put `(v  1 e 1 0 ]
+"86
+[v _fifo2Put fifo2Put `(v  1 e 1 0 ]
+"90
+[v _fifo3Put fifo3Put `(v  1 e 1 0 ]
+"99
+[v _fifo1Empty fifo1Empty `(uc  1 e 1 0 ]
+"103
+[v _fifo2Empty fifo2Empty `(uc  1 e 1 0 ]
+"107
+[v _fifo3Empty fifo3Empty `(uc  1 e 1 0 ]
+[v i2_fifo3Empty fifo3Empty `(uc  1 e 1 0 ]
+"4 D:\GitHub\LightControl\mplab\hardware.c
+[v _initHardware initHardware `(v  1 e 1 0 ]
+"8 D:\GitHub\LightControl\mplab\i2cmemory.c
+[v _i2cInit i2cInit `(v  1 e 1 0 ]
+"31
+[v _i2cStart i2cStart `(v  1 e 1 0 ]
+"44
+[v _i2cStop i2cStop `(v  1 e 1 0 ]
+"57
+[v _i2cRestart i2cRestart `(v  1 e 1 0 ]
+"92
+[v _i2cNak i2cNak `(v  1 e 1 0 ]
+"113
+[v _i2cWait i2cWait `(v  1 e 1 0 ]
+"132
+[v _i2cWrite i2cWrite `(c  1 e 1 0 ]
+"164
+[v _i2cRead i2cRead `(uc  1 e 1 0 ]
+"184
+[v _i2cIdle i2cIdle `(v  1 e 1 0 ]
+"190
+[v _EEAckPolling EEAckPolling `(c  1 e 1 0 ]
+"233
+[v _i2cGets i2cGets `(c  1 e 1 0 ]
+"59 D:\GitHub\LightControl\mplab\i2cslave.c
+[v _initI2CParser initI2CParser `(v  1 e 1 0 ]
+"72
+[v _initI2CSlave initI2CSlave `(v  1 e 1 0 ]
+"124
+[v _i2cParser i2cParser `(v  1 e 1 0 ]
+"374
+[v _testProtocolHeader testProtocolHeader `(uc  1 e 1 0 ]
+"396
+[v _i2cSendRawData i2cSendRawData `(v  1 e 1 0 ]
+"428
+[v _i2cSlaveHandler i2cSlaveHandler `(v  1 e 1 0 ]
+"27 D:\GitHub\LightControl\mplab\interrupts.c
+[v _high_isr high_isr `II(v  1 e 1 0 ]
+"350
+[v _low_isr low_isr `IIL(v  1 e 1 0 ]
+"29 D:\GitHub\LightControl\mplab\main.c
+[v _main main `(v  1 e 1 0 ]
+"15 D:\GitHub\LightControl\mplab\massStorage.c
+[v _getMemoryByte getMemoryByte `(uc  1 e 1 0 ]
+"25
+[v _initI2C initI2C `(v  1 e 1 0 ]
+"41
+[v _HDByteWriteI2C HDByteWriteI2C `(uc  1 e 1 0 ]
+"82
+[v _HDByteReadI2C HDByteReadI2C `(uc  1 e 1 0 ]
+"21 D:\GitHub\LightControl\mplab\protocol.c
+[v _initButtonProtocol initButtonProtocol `(v  1 e 1 0 ]
+"28
+[v _buttonByteReceived buttonByteReceived `(v  1 e 1 0 ]
+"21 D:\GitHub\LightControl\mplab\scenes.c
+[v _initSceneEvents initSceneEvents `(v  1 e 1 0 ]
+"36
+[v _handleSceneOn handleSceneOn `(v  1 e 1 0 ]
+"65
+[v _handleSceneOff handleSceneOff `(v  1 e 1 0 ]
+"107
+[v _incrementSceneCounter incrementSceneCounter `(v  1 e 1 0 ]
+"120
+[v _getCurrentScene getCurrentScene `(uc  1 e 1 0 ]
+"131
+[v _setSceneLevel setSceneLevel `(v  1 e 1 0 ]
+"152
+[v _sceneAdress sceneAdress `(ui  1 e 2 0 ]
+"163
+[v _readSceneChannel readSceneChannel `(v  1 e 1 0 ]
+"170
+[v _getSceneChannelLevel getSceneChannelLevel `(uc  1 e 1 0 ]
+"176
+[v _getSceneChannelTransparency getSceneChannelTransparency `(uc  1 e 1 0 ]
+"183
+[v _getSceneChannelSpeed getSceneChannelSpeed `(uc  1 e 1 0 ]
+"191
+[v _readSceneTransparency readSceneTransparency `(uc  1 e 1 0 ]
+"204
+[v _setSceneChannelLevel setSceneChannelLevel `(v  1 e 1 0 ]
+"220
+[v _initSceneChangeHardware initSceneChangeHardware `(v  1 e 1 0 ]
+"236
+[v _storeASceneChannel storeASceneChannel `(v  1 e 1 0 ]
+"251
+[v _doBlackout doBlackout `(v  1 e 1 0 ]
+"259
+[v _callScene callScene `(v  1 e 1 0 ]
+"270
+[v _storeChannelmask storeChannelmask `(v  1 e 1 0 ]
+"301
+[v _getChannelMaskByte getChannelMaskByte `(uc  1 e 1 0 ]
+"325
+[v _storeCurrentLevelsAsScene storeCurrentLevelsAsScene `(v  1 e 1 0 ]
+"340
+[v _storeSceneLevel storeSceneLevel `(v  1 e 1 0 ]
+"350
+[v _storeSceneDimSpeed storeSceneDimSpeed `(v  1 e 1 0 ]
+"357
+[v _storeSceneTransparency storeSceneTransparency `(v  1 e 1 0 ]
+[s S799 button 3 `uc 1 buttonNumber 1 0 `uc 1 assignedScene 1 1 `uc 1 buttonMode 1 2 :1:0 
+`uc 1 isActive 1 2 :1:1 
+`uc 1 watchdog 1 2 :4:2 
+]
+"21 D:\GitHub\LightControl\mplab\buttons.c
+[v _buttons buttons `[64]S799  1 e 192 0 ]
+"23
+[v _lastPressedKey lastPressedKey `uc  1 e 1 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f45k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"97
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"147
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"198
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"1825
+[v _T4CON T4CON `VEuc  1 e 1 @3921 ]
+"1916
+[v _TMR4 TMR4 `VEuc  1 e 1 @3923 ]
+"3401
+[v _SSP2CON3 SSP2CON3 `VEuc  1 e 1 @3945 ]
+"3463
+[v _SSP2MSK SSP2MSK `VEuc  1 e 1 @3946 ]
+"3533
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @3947 ]
+[s S1702 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"3568
+[s S2037 . 1 `uc 1 SEN2 1 0 :1:0 
+`uc 1 ADMSK12 1 0 :1:1 
+`uc 1 ADMSK22 1 0 :1:2 
+`uc 1 ADMSK32 1 0 :1:3 
+`uc 1 ACKEN2 1 0 :1:4 
+`uc 1 ACKDT2 1 0 :1:5 
+`uc 1 ACKSTAT2 1 0 :1:6 
+`uc 1 GCEN2 1 0 :1:7 
+]
+[s S2046 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN2 1 0 :1:1 
+`uc 1 PEN2 1 0 :1:2 
+`uc 1 RCEN2 1 0 :1:3 
+`uc 1 ADMSK42 1 0 :1:4 
+`uc 1 ADMSK52 1 0 :1:5 
+]
+[u S2053 . 1 `S1702 1 . 1 0 `S2037 1 . 1 0 `S2046 1 . 1 0 ]
+[v _SSP2CON2bits SSP2CON2bits `VES2053  1 e 1 @3947 ]
+"3678
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @3948 ]
+[s S2420 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3708
+[s S2426 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S2431 . 1 `uc 1 SSPM02 1 0 :1:0 
+`uc 1 SSPM12 1 0 :1:1 
+`uc 1 SSPM22 1 0 :1:2 
+`uc 1 SSPM32 1 0 :1:3 
+`uc 1 CKP2 1 0 :1:4 
+`uc 1 SSPEN2 1 0 :1:5 
+`uc 1 SSPOV2 1 0 :1:6 
+`uc 1 WCOL2 1 0 :1:7 
+]
+[u S2440 . 1 `S2420 1 . 1 0 `S2426 1 . 1 0 `S2431 1 . 1 0 ]
+[v _SSP2CON1bits SSP2CON1bits `VES2440  1 e 1 @3948 ]
+"3798
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @3949 ]
+[s S2182 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"3933
+[s S2185 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S2188 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S2197 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S2202 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S2207 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S2212 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S2217 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S2220 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S2223 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S2228 . 1 `uc 1 BF2 1 0 :1:0 
+`uc 1 UA2 1 0 :1:1 
+`uc 1 I2C_READ2 1 0 :1:2 
+`uc 1 I2C_START2 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA2 1 0 :1:5 
+`uc 1 CKE2 1 0 :1:6 
+`uc 1 SMP2 1 0 :1:7 
+]
+[s S2237 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE2 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS2 1 0 :1:5 
+]
+[s S2243 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW2 1 0 :1:2 
+`uc 1 START2 1 0 :1:3 
+`uc 1 STOP2 1 0 :1:4 
+`uc 1 D_A2 1 0 :1:5 
+]
+[s S2249 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A2 1 0 :1:5 
+]
+[s S2252 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA2 1 0 :1:5 
+]
+[s S2257 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W2 1 0 :1:2 
+]
+[s S2260 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT2 1 0 :1:5 
+]
+[s S2265 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S2268 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S2271 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S2276 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE2 1 0 :1:2 
+]
+[s S2279 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS2 1 0 :1:5 
+]
+[s S2282 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS2 1 0 :1:5 
+]
+[u S2287 . 1 `S2182 1 . 1 0 `S2185 1 . 1 0 `S2188 1 . 1 0 `S2197 1 . 1 0 `S2202 1 . 1 0 `S2207 1 . 1 0 `S2212 1 . 1 0 `S2217 1 . 1 0 `S2220 1 . 1 0 `S2223 1 . 1 0 `S2228 1 . 1 0 `S2237 1 . 1 0 `S2243 1 . 1 0 `S2249 1 . 1 0 `S2252 1 . 1 0 `S2257 1 . 1 0 `S2260 1 . 1 0 `S2265 1 . 1 0 `S2268 1 . 1 0 `S2271 1 . 1 0 `S2276 1 . 1 0 `S2279 1 . 1 0 `S2282 1 . 1 0 ]
+[v _SSP2STATbits SSP2STATbits `VES2287  1 e 1 @3949 ]
+"4198
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @3950 ]
+"4268
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3951 ]
+[s S642 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4330
+[s S651 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+]
+[s S858 . 1 `uc 1 ABDEN2 1 0 :1:0 
+`uc 1 WUE2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG162 1 0 :1:3 
+`uc 1 SCKP2 1 0 :1:4 
+`uc 1 DTRXP2 1 0 :1:5 
+`uc 1 RCIDL2 1 0 :1:6 
+`uc 1 ABDOVF2 1 0 :1:7 
+]
+[s S867 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP2 1 0 :1:4 
+`uc 1 RXDTP2 1 0 :1:5 
+`uc 1 RCMT2 1 0 :1:6 
+]
+[u S872 . 1 `S642 1 . 1 0 `S651 1 . 1 0 `S858 1 . 1 0 `S867 1 . 1 0 ]
+[v _BAUDCON2bits BAUDCON2bits `VES872  1 e 1 @3952 ]
+"4550
+[v _RCSTA2 RCSTA2 `VEuc  1 e 1 @3953 ]
+[s S904 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4595
+[s S913 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S916 . 1 `uc 1 RX9D2 1 0 :1:0 
+`uc 1 OERR2 1 0 :1:1 
+`uc 1 FERR2 1 0 :1:2 
+`uc 1 ADDEN2 1 0 :1:3 
+`uc 1 CREN2 1 0 :1:4 
+`uc 1 SREN2 1 0 :1:5 
+`uc 1 RX92 1 0 :1:6 
+`uc 1 SPEN2 1 0 :1:7 
+]
+[s S925 . 1 `uc 1 RCD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_92 1 0 :1:6 
+]
+[s S929 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC92 1 0 :1:6 
+]
+[u S932 . 1 `S904 1 . 1 0 `S913 1 . 1 0 `S916 1 . 1 0 `S925 1 . 1 0 `S929 1 . 1 0 ]
+[v _RCSTA2bits RCSTA2bits `VES932  1 e 1 @3953 ]
+"5133
+[v _RC2REG RC2REG `VEuc  1 e 1 @3956 ]
+"5166
+[v _SPBRG2 SPBRG2 `VEuc  1 e 1 @3957 ]
+"5364
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @3960 ]
+"5644
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @3961 ]
+[s S747 . 1 `uc 1 TMR4IE 1 0 :1:0 
+`uc 1 TMR5IE 1 0 :1:1 
+`uc 1 TMR6IE 1 0 :1:2 
+]
+"6182
+[u S751 . 1 `S747 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES751  1 e 1 @3965 ]
+[s S24 . 1 `uc 1 TMR4IF 1 0 :1:0 
+`uc 1 TMR5IF 1 0 :1:1 
+`uc 1 TMR6IF 1 0 :1:2 
+]
+"6214
+[u S28 . 1 `S24 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES28  1 e 1 @3966 ]
+[s S729 . 1 `uc 1 TMR4IP 1 0 :1:0 
+`uc 1 TMR5IP 1 0 :1:1 
+`uc 1 TMR6IP 1 0 :1:2 
+]
+"6250
+[s S733 . 1 `uc 1 CCH05 1 0 :1:0 
+`uc 1 CCH15 1 0 :1:1 
+]
+[u S736 . 1 `S729 1 . 1 0 `S733 1 . 1 0 ]
+[v _IPR5bits IPR5bits `VES736  1 e 1 @3967 ]
+"6280
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"6565
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"6835
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S814 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"7205
+[s S1906 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 P2B 1 0 :1:2 
+`uc 1 P2C 1 0 :1:3 
+`uc 1 P2D 1 0 :1:4 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S1914 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP4 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 TX2 1 0 :1:6 
+`uc 1 RX2 1 0 :1:7 
+]
+[s S1920 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_SS2 1 0 :1:3 
+]
+[s S1923 . 1 `uc 1 SCK2 1 0 :1:0 
+`uc 1 SDI2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 nSS2 1 0 :1:3 
+`uc 1 SDO2 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK2 1 0 :1:6 
+`uc 1 DT2 1 0 :1:7 
+]
+[s S1932 . 1 `uc 1 SCL2 1 0 :1:0 
+`uc 1 SDA2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SS2 1 0 :1:3 
+]
+[s S1937 . 1 `uc 1 AN20 1 0 :1:0 
+`uc 1 AN21 1 0 :1:1 
+`uc 1 AN22 1 0 :1:2 
+`uc 1 AN23 1 0 :1:3 
+`uc 1 AN24 1 0 :1:4 
+`uc 1 AN25 1 0 :1:5 
+`uc 1 AN26 1 0 :1:6 
+`uc 1 AN27 1 0 :1:7 
+]
+[u S1946 . 1 `S814 1 . 1 0 `S1906 1 . 1 0 `S1914 1 . 1 0 `S1920 1 . 1 0 `S1923 1 . 1 0 `S1932 1 . 1 0 `S1937 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES1946  1 e 1 @3971 ]
+"7560
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"7672
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"7784
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S602 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"7811
+[s S611 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S620 . 1 `S602 1 . 1 0 `S611 1 . 1 0 ]
+[v _LATCbits LATCbits `VES620  1 e 1 @3979 ]
+[s S1857 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"7923
+[s S1866 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S1875 . 1 `S1857 1 . 1 0 `S1866 1 . 1 0 ]
+[v _LATDbits LATDbits `VES1875  1 e 1 @3980 ]
+"8060
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"8282
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S492 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"8314
+[s S501 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S510 . 1 `S492 1 . 1 0 `S501 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES510  1 e 1 @3987 ]
+"8504
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S562 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"8536
+[s S571 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S580 . 1 `S562 1 . 1 0 `S571 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES580  1 e 1 @3988 ]
+"8726
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S805 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"8758
+[u S823 . 1 `S805 1 . 1 0 `S814 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES823  1 e 1 @3989 ]
+[s S456 . 1 `uc 1 TUN 1 0 :6:0 
+`uc 1 PLLEN 1 0 :1:6 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"9084
+[s S460 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+`uc 1 TUN5 1 0 :1:5 
+]
+[u S467 . 1 `S456 1 . 1 0 `S460 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES467  1 e 1 @3995 ]
+[s S1498 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 HLVDIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 C2IE 1 0 :1:5 
+`uc 1 C1IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"9671
+[s S1507 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+]
+[s S1511 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S1514 . 1 `S1498 1 . 1 0 `S1507 1 . 1 0 `S1511 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES1514  1 e 1 @4000 ]
+[s S81 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C2IF 1 0 :1:5 
+`uc 1 C1IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"9757
+[s S90 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+]
+[s S94 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S97 . 1 `S81 1 . 1 0 `S90 1 . 1 0 `S94 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES97  1 e 1 @4001 ]
+[s S1461 . 1 `uc 1 CCP2IP 1 0 :1:0 
+`uc 1 TMR3IP 1 0 :1:1 
+`uc 1 HLVDIP 1 0 :1:2 
+`uc 1 BCL1IP 1 0 :1:3 
+`uc 1 EEIP 1 0 :1:4 
+`uc 1 C2IP 1 0 :1:5 
+`uc 1 C1IP 1 0 :1:6 
+`uc 1 OSCFIP 1 0 :1:7 
+]
+"9843
+[s S1470 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIP 1 0 :1:2 
+`uc 1 BCLIP 1 0 :1:3 
+]
+[s S1474 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIP 1 0 :1:6 
+]
+[u S1477 . 1 `S1461 1 . 1 0 `S1470 1 . 1 0 `S1474 1 . 1 0 ]
+[v _IPR2bits IPR2bits `VES1477  1 e 1 @4002 ]
+[s S1000 . 1 `uc 1 TMR1GIE 1 0 :1:0 
+`uc 1 TMR3GIE 1 0 :1:1 
+`uc 1 TMR5GIE 1 0 :1:2 
+`uc 1 CTMUIE 1 0 :1:3 
+`uc 1 TX2IE 1 0 :1:4 
+`uc 1 RC2IE 1 0 :1:5 
+`uc 1 BCL2IE 1 0 :1:6 
+`uc 1 SSP2IE 1 0 :1:7 
+]
+"9933
+[s S1009 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S1015 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S1020 . 1 `S1000 1 . 1 0 `S1009 1 . 1 0 `S1015 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1020  1 e 1 @4003 ]
+[s S39 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 TMR5GIF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 BCL2IF 1 0 :1:6 
+`uc 1 SSP2IF 1 0 :1:7 
+]
+"10036
+[s S48 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S53 . 1 `S39 1 . 1 0 `S48 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES53  1 e 1 @4004 ]
+[s S968 . 1 `uc 1 TMR1GIP 1 0 :1:0 
+`uc 1 TMR3GIP 1 0 :1:1 
+`uc 1 TMR5GIP 1 0 :1:2 
+`uc 1 CTMUIP 1 0 :1:3 
+`uc 1 TX2IP 1 0 :1:4 
+`uc 1 RC2IP 1 0 :1:5 
+`uc 1 BCL2IP 1 0 :1:6 
+`uc 1 SSP2IP 1 0 :1:7 
+]
+"10114
+[s S977 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIP 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIP 1 0 :1:4 
+]
+[u S982 . 1 `S968 1 . 1 0 `S977 1 . 1 0 ]
+[v _IPR3bits IPR3bits `VES982  1 e 1 @4005 ]
+"10345
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+"10801
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"11185
+[v _TX1REG TX1REG `VEuc  1 e 1 @4013 ]
+"11332
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"11488
+[v _T3CON T3CON `VEuc  1 e 1 @4017 ]
+[s S1411 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+]
+"11521
+[s S1414 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 T3RD16 1 0 :1:1 
+`uc 1 nT3SYNC 1 0 :1:2 
+`uc 1 T3SOSCEN 1 0 :1:3 
+`uc 1 T3CKPS 1 0 :2:4 
+`uc 1 TMR3CS 1 0 :2:6 
+]
+[s S1421 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T3OSCEN 1 0 :1:3 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+`uc 1 TMR3CS0 1 0 :1:6 
+`uc 1 TMR3CS1 1 0 :1:7 
+]
+[s S1428 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN3 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 RD163 1 0 :1:7 
+]
+[u S1433 . 1 `S1411 1 . 1 0 `S1414 1 . 1 0 `S1421 1 . 1 0 `S1428 1 . 1 0 ]
+[v _T3CONbits T3CONbits `VES1433  1 e 1 @4017 ]
+"11603
+[v _TMR3L TMR3L `VEuc  1 e 1 @4018 ]
+"11623
+[v _TMR3H TMR3H `VEuc  1 e 1 @4019 ]
+"12602
+[s S654 . 1 `uc 1 ABDEN1 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG161 1 0 :1:3 
+`uc 1 SCKP1 1 0 :1:4 
+`uc 1 DTRXP1 1 0 :1:5 
+`uc 1 RCIDL1 1 0 :1:6 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S663 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S668 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+`uc 1 RXDTP1 1 0 :1:5 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S673 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S676 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S679 . 1 `S642 1 . 1 0 `S651 1 . 1 0 `S654 1 . 1 0 `S663 1 . 1 0 `S668 1 . 1 0 `S673 1 . 1 0 `S676 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES679  1 e 1 @4024 ]
+"13754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"13968
+[s S1711 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S1720 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S1727 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S1734 . 1 `S1702 1 . 1 0 `S1711 1 . 1 0 `S1720 1 . 1 0 `S1727 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES1734  1 e 1 @4037 ]
+"14108
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"14251
+[s S2780 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S2789 . 1 `S2420 1 . 1 0 `S2426 1 . 1 0 `S2780 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES2789  1 e 1 @4038 ]
+"14346
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"14447
+[s S2903 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S2912 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S2918 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S2924 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S2929 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S2932 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S2935 . 1 `S2182 1 . 1 0 `S2185 1 . 1 0 `S2188 1 . 1 0 `S2197 1 . 1 0 `S2202 1 . 1 0 `S2207 1 . 1 0 `S2212 1 . 1 0 `S2217 1 . 1 0 `S2220 1 . 1 0 `S2223 1 . 1 0 `S2903 1 . 1 0 `S2912 1 . 1 0 `S2918 1 . 1 0 `S2924 1 . 1 0 `S2929 1 . 1 0 `S2932 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES2935  1 e 1 @4039 ]
+"14756
+[v _SSPSTATbits SSPSTATbits `VES2935  1 e 1 @4039 ]
+"14976
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"15230
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+[s S268 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"15837
+[s S270 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S273 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S276 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S279 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S282 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S291 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S297 . 1 `S268 1 . 1 0 `S270 1 . 1 0 `S273 1 . 1 0 `S276 1 . 1 0 `S279 1 . 1 0 `S282 1 . 1 0 `S291 1 . 1 0 ]
+[v _RCONbits RCONbits `VES297  1 e 1 @4048 ]
+[s S424 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 HFIOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"16035
+[s S430 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S438 . 1 `S424 1 . 1 0 `S430 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES438  1 e 1 @4051 ]
+[s S1045 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"16115
+[s S1052 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S1056 . 1 `S1045 1 . 1 0 `S1052 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES1056  1 e 1 @4053 ]
+"16172
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"16192
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S1138 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"16847
+[s S1141 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S1150 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S1153 . 1 `S1138 1 . 1 0 `S1141 1 . 1 0 `S1150 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES1153  1 e 1 @4081 ]
+[s S121 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16924
+[s S130 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S139 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S143 . 1 `S121 1 . 1 0 `S130 1 . 1 0 `S139 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES143  1 e 1 @4082 ]
+"19312
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+[s S2568 . 2 `uc 1 fraction 1 0 `uc 1 level 1 1 ]
+"10 D:\GitHub\LightControl\mplab\dimengine.c
+[u S2571 . 2 `ui 1 calc 2 0 `S2568 1 level 2 0 ]
+[s S2574 _deChannel 6 `S2571 1 level 2 0 `uc 1 dimSteps 1 2 `i 1 increment 2 3 `uc 1 delay 1 5 :5:0 
+`uc 1 nextDimState 1 5 :3:5 
+]
+[v _channels channels `[128]S2574  1 e 768 0 ]
+"20 D:\GitHub\LightControl\mplab\dmx.c
+[v _dataCounter dataCounter `uc  1 e 1 0 ]
+"21
+[v _dmxSendState dmxSendState `uc  1 e 1 0 ]
+"12 D:\GitHub\LightControl\mplab\fifo.c
+[v _fifo1 fifo1 `[16]uc  1 e 16 0 ]
+"13
+[v _fifo2 fifo2 `[16]uc  1 e 16 0 ]
+"14
+[v _fifo3 fifo3 `[16]uc  1 e 16 0 ]
+"20
+[v _fifo1In fifo1In `uc  1 e 1 0 ]
+"21
+[v _fifo2In fifo2In `uc  1 e 1 0 ]
+"22
+[v _fifo3In fifo3In `uc  1 e 1 0 ]
+"28
+[v _fifo1Out fifo1Out `uc  1 e 1 0 ]
+"29
+[v _fifo2Out fifo2Out `uc  1 e 1 0 ]
+"30
+[v _fifo3Out fifo3Out `uc  1 e 1 0 ]
+"5 D:\GitHub\LightControl\mplab\i2cmemory.c
+[v _bI2CTimeout bI2CTimeout `uc  1 e 1 0 ]
+"15 D:\GitHub\LightControl\mplab\i2cslave.c
+[v _bSceneChanged bSceneChanged `VEuc  1 e 1 0 ]
+"17
+[v _bStoreDone bStoreDone `VEuc  1 e 1 0 ]
+"33
+[v _spiState spiState `VEuc  1 e 1 0 ]
+"35
+[v _spiCommand spiCommand `VEuc  1 e 1 0 ]
+"37
+[v _spiCount spiCount `uc  1 e 1 0 ]
+"38
+[v _spiChecksum spiChecksum `uc  1 e 1 0 ]
+"39
+[v _spiData spiData `[64]uc  1 e 64 0 ]
+"49
+[v _bGetDataBlockActive bGetDataBlockActive `uc  1 e 1 0 ]
+"50
+[v _dataBlockCounter dataBlockCounter `uc  1 e 1 0 ]
+"51
+[v _dataBlockPage dataBlockPage `uc  1 e 1 0 ]
+"117
+[v _help help `uc  1 e 1 0 ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+"119
+[v _sc sc `S1385  1 e 3 0 ]
+"15 D:\GitHub\LightControl\mplab\interrupts.c
+[v _data data `VEuc  1 e 1 0 ]
+"14 D:\GitHub\LightControl\mplab\main.c
+[v _bDoDimStep bDoDimStep `VEuc  1 e 1 0 ]
+"15
+[v _bButtonReset bButtonReset `VEuc  1 e 1 0 ]
+"16
+[v _bSPISlave bSPISlave `VEuc  1 e 1 0 ]
+"18
+[v _bI2CReadPending bI2CReadPending `VEuc  1 e 1 0 ]
+"10 D:\GitHub\LightControl\mplab\protocol.c
+[v _protocolState protocolState `uc  1 s 1 protocolState ]
+"11
+[v _device device `uc  1 s 1 device ]
+"12
+[v _button button `uc  1 s 1 button ]
+"11 D:\GitHub\LightControl\mplab\scenes.c
+[v _currentScene currentScene `uc  1 e 1 0 ]
+[s S1352 _scenecontrol 1 `uc 1 onCount 1 0 :6:0 
+`uc 1 isOn 1 0 :1:6 
+`uc 1 offPrepared 1 0 :1:7 
+]
+"15
+[v _sceneControl sceneControl `[128]S1352  1 e 128 0 ]
+"29 D:\GitHub\LightControl\mplab\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"105
+} 0
+"84 D:\GitHub\LightControl\mplab\buttons.c
+[v _testRC2Errors testRC2Errors `(v  1 e 1 0 ]
+{
+"99
+} 0
+"21 D:\GitHub\LightControl\mplab\protocol.c
+[v _initButtonProtocol initButtonProtocol `(v  1 e 1 0 ]
+{
+"25
+} 0
+"37 D:\GitHub\LightControl\mplab\fifo.c
+[v _fifoInit fifoInit `(v  1 e 1 0 ]
+{
+"39
+[v fifoInit@i i `uc  1 a 1 11 ]
+"55
+} 0
+"21 D:\GitHub\LightControl\mplab\scenes.c
+[v _initSceneEvents initSceneEvents `(v  1 e 1 0 ]
+{
+[s S1352 _scenecontrol 1 `uc 1 onCount 1 0 :6:0 
+`uc 1 isOn 1 0 :1:6 
+`uc 1 offPrepared 1 0 :1:7 
+]
+"24
+[v initSceneEvents@scp scp `*.39S1352  1 a 2 12 ]
+"23
+[v initSceneEvents@i i `uc  1 a 1 11 ]
+"31
+} 0
+"220
+[v _initSceneChangeHardware initSceneChangeHardware `(v  1 e 1 0 ]
+{
+"233
+} 0
+"72 D:\GitHub\LightControl\mplab\i2cslave.c
+[v _initI2CSlave initI2CSlave `(v  1 e 1 0 ]
+{
+"114
+} 0
+"59
+[v _initI2CParser initI2CParser `(v  1 e 1 0 ]
+{
+"61
+[v initI2CParser@i i `uc  1 a 1 11 ]
+"68
+} 0
+"25 D:\GitHub\LightControl\mplab\massStorage.c
+[v _initI2C initI2C `(v  1 e 1 0 ]
+{
+"32
+} 0
+"8 D:\GitHub\LightControl\mplab\i2cmemory.c
+[v _i2cInit i2cInit `(v  1 e 1 0 ]
+{
+"19
+} 0
+"4 D:\GitHub\LightControl\mplab\hardware.c
+[v _initHardware initHardware `(v  1 e 1 0 ]
+{
+"51
+} 0
+"16 D:\GitHub\LightControl\mplab\dimengine.c
+[v _initDimEngine initDimEngine `(v  1 e 1 0 ]
+{
+"18
+[v initDimEngine@i i `uc  1 a 1 11 ]
+"28
+} 0
+"23 D:\GitHub\LightControl\mplab\dmx.c
+[v _initDMXSend initDMXSend `(v  1 e 1 0 ]
+{
+"51
+} 0
+"30 D:\GitHub\LightControl\mplab\buttons.c
+[v _initButtonHardware initButtonHardware `(v  1 e 1 0 ]
+{
+"82
+} 0
+"396 D:\GitHub\LightControl\mplab\i2cslave.c
+[v _i2cSendRawData i2cSendRawData `(v  1 e 1 0 ]
+{
+"400
+[v i2cSendRawData@b b `uc  1 a 1 28 ]
+"398
+[v i2cSendRawData@sumcheck sumcheck `uc  1 s 1 sumcheck ]
+"421
+} 0
+"15 D:\GitHub\LightControl\mplab\massStorage.c
+[v _getMemoryByte getMemoryByte `(uc  1 e 1 0 ]
+{
+[v getMemoryByte@msb msb `uc  1 a 1 wreg ]
+"17
+[v getMemoryByte@b b `[1]uc  1 a 1 27 ]
+"15
+[v getMemoryByte@msb msb `uc  1 a 1 wreg ]
+[v getMemoryByte@lsb lsb `uc  1 p 1 25 ]
+"18
+[v getMemoryByte@msb msb `uc  1 a 1 26 ]
+"20
+} 0
+"107 D:\GitHub\LightControl\mplab\fifo.c
+[v _fifo3Empty fifo3Empty `(uc  1 e 1 0 ]
+{
+"109
+} 0
+"124 D:\GitHub\LightControl\mplab\i2cslave.c
+[v _i2cParser i2cParser `(v  1 e 1 0 ]
+{
+[v i2cParser@data data `uc  1 a 1 wreg ]
+[v i2cParser@data data `uc  1 a 1 wreg ]
+"135
+[v i2cParser@data data `uc  1 a 1 2 ]
+"365
+} 0
+"374
+[v _testProtocolHeader testProtocolHeader `(uc  1 e 1 0 ]
+{
+[v testProtocolHeader@numBytes numBytes `uc  1 a 1 wreg ]
+[v testProtocolHeader@numBytes numBytes `uc  1 a 1 wreg ]
+"376
+[v testProtocolHeader@numBytes numBytes `uc  1 a 1 14 ]
+"390
+} 0
+"90 D:\GitHub\LightControl\mplab\fifo.c
+[v _fifo3Put fifo3Put `(v  1 e 1 0 ]
+{
+[v fifo3Put@in in `uc  1 a 1 wreg ]
+[v fifo3Put@in in `uc  1 a 1 wreg ]
+[v fifo3Put@in in `uc  1 a 1 13 ]
+"92
+} 0
+"357 D:\GitHub\LightControl\mplab\scenes.c
+[v _storeSceneTransparency storeSceneTransparency `(v  1 e 1 0 ]
+{
+[v storeSceneTransparency@scene scene `uc  1 a 1 wreg ]
+"359
+[v storeSceneTransparency@baseAddress baseAddress `ui  1 a 2 25 ]
+"357
+[v storeSceneTransparency@scene scene `uc  1 a 1 wreg ]
+[v storeSceneTransparency@channel channel `uc  1 p 1 22 ]
+[v storeSceneTransparency@transparency transparency `uc  1 p 1 23 ]
+"359
+[v storeSceneTransparency@scene scene `uc  1 a 1 24 ]
+"361
+} 0
+"340
+[v _storeSceneLevel storeSceneLevel `(v  1 e 1 0 ]
+{
+[v storeSceneLevel@scene scene `uc  1 a 1 wreg ]
+"342
+[v storeSceneLevel@baseAddress baseAddress `ui  1 a 2 25 ]
+"340
+[v storeSceneLevel@scene scene `uc  1 a 1 wreg ]
+[v storeSceneLevel@channel channel `uc  1 p 1 22 ]
+[v storeSceneLevel@level level `uc  1 p 1 23 ]
+"342
+[v storeSceneLevel@scene scene `uc  1 a 1 24 ]
+"344
+} 0
+"350
+[v _storeSceneDimSpeed storeSceneDimSpeed `(v  1 e 1 0 ]
+{
+[v storeSceneDimSpeed@scene scene `uc  1 a 1 wreg ]
+"352
+[v storeSceneDimSpeed@baseAddress baseAddress `ui  1 a 2 25 ]
+"350
+[v storeSceneDimSpeed@scene scene `uc  1 a 1 wreg ]
+[v storeSceneDimSpeed@channel channel `uc  1 p 1 22 ]
+[v storeSceneDimSpeed@dimSpeed dimSpeed `uc  1 p 1 23 ]
+"352
+[v storeSceneDimSpeed@scene scene `uc  1 a 1 24 ]
+"355
+} 0
+"325
+[v _storeCurrentLevelsAsScene storeCurrentLevelsAsScene `(v  1 e 1 0 ]
+{
+[v storeCurrentLevelsAsScene@scene scene `uc  1 a 1 wreg ]
+"328
+[v storeCurrentLevelsAsScene@baseAddress baseAddress `ui  1 a 2 23 ]
+"327
+[v storeCurrentLevelsAsScene@i i `uc  1 a 1 25 ]
+"325
+[v storeCurrentLevelsAsScene@scene scene `uc  1 a 1 wreg ]
+"330
+[v storeCurrentLevelsAsScene@scene scene `uc  1 a 1 22 ]
+"335
+} 0
+"225 D:\GitHub\LightControl\mplab\dimengine.c
+[v _getChannelLevel getChannelLevel `(uc  1 e 1 0 ]
+{
+[v getChannelLevel@channel channel `uc  1 a 1 wreg ]
+[v getChannelLevel@channel channel `uc  1 a 1 wreg ]
+"227
+[v getChannelLevel@channel channel `uc  1 a 1 14 ]
+"228
+} 0
+"270 D:\GitHub\LightControl\mplab\scenes.c
+[v _storeChannelmask storeChannelmask `(v  1 e 1 0 ]
+{
+[v storeChannelmask@scene scene `uc  1 a 1 wreg ]
+"273
+[v storeChannelmask@baseAddress baseAddress `ui  1 a 2 34 ]
+"272
+[v storeChannelmask@i i `uc  1 a 1 33 ]
+"274
+[v storeChannelmask@val val `uc  1 a 1 32 ]
+"276
+[v storeChannelmask@control control `uc  1 a 1 31 ]
+"270
+[v storeChannelmask@scene scene `uc  1 a 1 wreg ]
+[v storeChannelmask@maskArray maskArray `*.39uc  1 p 2 25 ]
+"278
+[v storeChannelmask@scene scene `uc  1 a 1 30 ]
+"295
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 17 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 16 ]
+[v ___awdiv@counter counter `uc  1 a 1 15 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 11 ]
+[v ___awdiv@divisor divisor `i  1 p 2 13 ]
+"41
+} 0
+"131 D:\GitHub\LightControl\mplab\scenes.c
+[v _setSceneLevel setSceneLevel `(v  1 e 1 0 ]
+{
+[v setSceneLevel@scene scene `uc  1 a 1 wreg ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+"134
+[v setSceneLevel@sc sc `S1385  1 a 3 33 ]
+"133
+[v setSceneLevel@i i `uc  1 a 1 36 ]
+"131
+[v setSceneLevel@scene scene `uc  1 a 1 wreg ]
+[v setSceneLevel@level level `uc  1 p 1 31 ]
+"136
+[v setSceneLevel@scene scene `uc  1 a 1 32 ]
+"144
+} 0
+"204
+[v _setSceneChannelLevel setSceneChannelLevel `(v  1 e 1 0 ]
+{
+[v setSceneChannelLevel@scene scene `uc  1 a 1 wreg ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+"206
+[v setSceneChannelLevel@sc sc `S1385  1 a 3 33 ]
+"204
+[v setSceneChannelLevel@scene scene `uc  1 a 1 wreg ]
+[v setSceneChannelLevel@channel channel `uc  1 p 1 28 ]
+[v setSceneChannelLevel@level level `uc  1 p 1 29 ]
+[v setSceneChannelLevel@transparency transparency `uc  1 p 1 30 ]
+[v setSceneChannelLevel@time time `uc  1 p 1 31 ]
+"208
+[v setSceneChannelLevel@scene scene `uc  1 a 1 32 ]
+"213
+} 0
+"236
+[v _storeASceneChannel storeASceneChannel `(v  1 e 1 0 ]
+{
+[v storeASceneChannel@scene scene `uc  1 a 1 wreg ]
+"238
+[v storeASceneChannel@baseAdress baseAdress `ui  1 a 2 26 ]
+"236
+[v storeASceneChannel@scene scene `uc  1 a 1 wreg ]
+[v storeASceneChannel@channel channel `uc  1 p 1 22 ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+[v storeASceneChannel@scp scp `*.39S1385  1 p 2 23 ]
+"238
+[v storeASceneChannel@scene scene `uc  1 a 1 25 ]
+"243
+} 0
+"240 D:\GitHub\LightControl\mplab\buttons.c
+[v _registerButton registerButton `(v  1 e 1 0 ]
+{
+[v registerButton@button button `uc  1 a 1 wreg ]
+[v registerButton@button button `uc  1 a 1 wreg ]
+[v registerButton@action action `uc  1 p 1 33 ]
+[v registerButton@buttonMode buttonMode `uc  1 p 1 34 ]
+"242
+[v registerButton@button button `uc  1 a 1 35 ]
+"244
+} 0
+"254
+[v _storeAButton storeAButton `(v  1 e 1 0 ]
+{
+[v storeAButton@button button `uc  1 a 1 wreg ]
+[v storeAButton@button button `uc  1 a 1 wreg ]
+[v storeAButton@program program `uc  1 p 1 19 ]
+[v storeAButton@mode mode `uc  1 p 1 20 ]
+[v storeAButton@button button `uc  1 a 1 21 ]
+"258
+} 0
+"41 D:\GitHub\LightControl\mplab\massStorage.c
+[v _HDByteWriteI2C HDByteWriteI2C `(uc  1 e 1 0 ]
+{
+[v HDByteWriteI2C@ControlByte ControlByte `uc  1 a 1 wreg ]
+[v HDByteWriteI2C@ControlByte ControlByte `uc  1 a 1 wreg ]
+[v HDByteWriteI2C@HighAdd HighAdd `uc  1 p 1 15 ]
+[v HDByteWriteI2C@LowAdd LowAdd `uc  1 p 1 16 ]
+[v HDByteWriteI2C@data data `uc  1 p 1 17 ]
+"43
+[v HDByteWriteI2C@ControlByte ControlByte `uc  1 a 1 18 ]
+"62
+} 0
+"190 D:\GitHub\LightControl\mplab\i2cmemory.c
+[v _EEAckPolling EEAckPolling `(c  1 e 1 0 ]
+{
+[v EEAckPolling@control control `uc  1 a 1 wreg ]
+[v EEAckPolling@control control `uc  1 a 1 wreg ]
+"192
+[v EEAckPolling@control control `uc  1 a 1 13 ]
+"229
+} 0
+"123 D:\GitHub\LightControl\mplab\buttons.c
+[v _initAllButtons initAllButtons `(v  1 e 1 0 ]
+{
+"127
+[v initAllButtons@data data `[2]uc  1 a 2 30 ]
+"128
+[v initAllButtons@i i `uc  1 a 1 32 ]
+"125
+[v initAllButtons@buttonIndex buttonIndex `uc  1 a 1 29 ]
+"138
+} 0
+"260
+[v _readAButton readAButton `(v  1 e 1 0 ]
+{
+[v readAButton@button button `uc  1 a 1 wreg ]
+"262
+[v readAButton@data data `uc  1 a 1 28 ]
+"260
+[v readAButton@button button `uc  1 a 1 wreg ]
+[v readAButton@cp cp `*.39uc  1 p 2 25 ]
+"262
+[v readAButton@button button `uc  1 a 1 27 ]
+"268
+} 0
+"143
+[v _initButton initButton `(v  1 e 1 0 ]
+{
+[v initButton@i i `uc  1 a 1 wreg ]
+[s S799 button 3 `uc 1 buttonNumber 1 0 `uc 1 assignedScene 1 1 `uc 1 buttonMode 1 2 :1:0 
+`uc 1 isActive 1 2 :1:1 
+`uc 1 watchdog 1 2 :4:2 
+]
+"145
+[v initButton@bp bp `*.39S799  1 a 2 16 ]
+"143
+[v initButton@i i `uc  1 a 1 wreg ]
+[v initButton@bn bn `uc  1 p 1 11 ]
+[v initButton@as as `uc  1 p 1 12 ]
+[v initButton@buttonMode buttonMode `uc  1 p 1 13 ]
+"145
+[v initButton@i i `uc  1 a 1 15 ]
+"155
+} 0
+"183 D:\GitHub\LightControl\mplab\scenes.c
+[v _getSceneChannelSpeed getSceneChannelSpeed `(uc  1 e 1 0 ]
+{
+[v getSceneChannelSpeed@scene scene `uc  1 a 1 wreg ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+"185
+[v getSceneChannelSpeed@sc sc `S1385  1 a 3 33 ]
+"183
+[v getSceneChannelSpeed@scene scene `uc  1 a 1 wreg ]
+[v getSceneChannelSpeed@channel channel `uc  1 p 1 31 ]
+"186
+[v getSceneChannelSpeed@scene scene `uc  1 a 1 32 ]
+"188
+} 0
+"170
+[v _getSceneChannelLevel getSceneChannelLevel `(uc  1 e 1 0 ]
+{
+[v getSceneChannelLevel@scene scene `uc  1 a 1 wreg ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+"172
+[v getSceneChannelLevel@sc sc `S1385  1 a 3 33 ]
+"170
+[v getSceneChannelLevel@scene scene `uc  1 a 1 wreg ]
+[v getSceneChannelLevel@channel channel `uc  1 p 1 31 ]
+"173
+[v getSceneChannelLevel@scene scene `uc  1 a 1 32 ]
+"175
+} 0
+"271 D:\GitHub\LightControl\mplab\buttons.c
+[v _getLastPressedKey getLastPressedKey `(uc  1 e 1 0 ]
+{
+"273
+} 0
+"120 D:\GitHub\LightControl\mplab\scenes.c
+[v _getCurrentScene getCurrentScene `(uc  1 e 1 0 ]
+{
+"123
+} 0
+"301
+[v _getChannelMaskByte getChannelMaskByte `(uc  1 e 1 0 ]
+{
+[v getChannelMaskByte@scene scene `uc  1 a 1 wreg ]
+"303
+[v getChannelMaskByte@i i `uc  1 a 1 44 ]
+"305
+[v getChannelMaskByte@t t `uc  1 a 1 43 ]
+"304
+[v getChannelMaskByte@r r `uc  1 a 1 42 ]
+"301
+[v getChannelMaskByte@scene scene `uc  1 a 1 wreg ]
+[v getChannelMaskByte@addr addr `uc  1 p 1 36 ]
+"304
+[v getChannelMaskByte@scene scene `uc  1 a 1 41 ]
+"316
+} 0
+"176
+[v _getSceneChannelTransparency getSceneChannelTransparency `(uc  1 e 1 0 ]
+{
+[v getSceneChannelTransparency@scene scene `uc  1 a 1 wreg ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+"178
+[v getSceneChannelTransparency@sc sc `S1385  1 a 3 33 ]
+"176
+[v getSceneChannelTransparency@scene scene `uc  1 a 1 wreg ]
+[v getSceneChannelTransparency@channel channel `uc  1 p 1 31 ]
+"179
+[v getSceneChannelTransparency@scene scene `uc  1 a 1 32 ]
+"181
+} 0
+"251
+[v _doBlackout doBlackout `(v  1 e 1 0 ]
+{
+"253
+[v doBlackout@i i `uc  1 a 1 13 ]
+"257
+} 0
+"231 D:\GitHub\LightControl\mplab\dimengine.c
+[v _setChannelLevel setChannelLevel `(v  1 e 1 0 ]
+{
+[v setChannelLevel@channel channel `uc  1 a 1 wreg ]
+[v setChannelLevel@channel channel `uc  1 a 1 wreg ]
+[v setChannelLevel@level level `uc  1 p 1 11 ]
+"233
+[v setChannelLevel@channel channel `uc  1 a 1 12 ]
+"235
+} 0
+"259 D:\GitHub\LightControl\mplab\scenes.c
+[v _callScene callScene `(v  1 e 1 0 ]
+{
+[v callScene@scene scene `uc  1 a 1 wreg ]
+[v callScene@scene scene `uc  1 a 1 wreg ]
+"261
+[v callScene@scene scene `uc  1 a 1 57 ]
+"264
+} 0
+"67 D:\GitHub\LightControl\mplab\fifo.c
+[v _fifo2Get fifo2Get `(uc  1 e 1 0 ]
+{
+"69
+} 0
+"103
+[v _fifo2Empty fifo2Empty `(uc  1 e 1 0 ]
+{
+"105
+} 0
+"63
+[v _fifo1Get fifo1Get `(uc  1 e 1 0 ]
+{
+"65
+} 0
+"99
+[v _fifo1Empty fifo1Empty `(uc  1 e 1 0 ]
+{
+"101
+} 0
+"39 D:\GitHub\LightControl\mplab\dimengine.c
+[v _dimEngineStep dimEngineStep `(v  1 e 1 0 ]
+{
+[s S2568 . 2 `uc 1 fraction 1 0 `uc 1 level 1 1 ]
+"43
+[u S2571 . 2 `ui 1 calc 2 0 `S2568 1 level 2 0 ]
+[s S2574 _deChannel 6 `S2571 1 level 2 0 `uc 1 dimSteps 1 2 `i 1 increment 2 3 `uc 1 delay 1 5 :5:0 
+`uc 1 nextDimState 1 5 :3:5 
+]
+[v dimEngineStep@cp cp `*.39S2574  1 a 2 49 ]
+"41
+[v dimEngineStep@i i `uc  1 a 1 48 ]
+"102
+} 0
+"210 D:\GitHub\LightControl\mplab\buttons.c
+[v _buttonsReset buttonsReset `(v  1 e 1 0 ]
+{
+[s S799 button 3 `uc 1 buttonNumber 1 0 `uc 1 assignedScene 1 1 `uc 1 buttonMode 1 2 :1:0 
+`uc 1 isActive 1 2 :1:1 
+`uc 1 watchdog 1 2 :4:2 
+]
+"214
+[v buttonsReset@bp bp `*.39S799  1 a 2 57 ]
+"212
+[v buttonsReset@i i `uc  1 a 1 56 ]
+"230
+} 0
+"65 D:\GitHub\LightControl\mplab\scenes.c
+[v _handleSceneOff handleSceneOff `(v  1 e 1 0 ]
+{
+[v handleSceneOff@scene scene `uc  1 a 1 wreg ]
+[s S1352 _scenecontrol 1 `uc 1 onCount 1 0 :6:0 
+`uc 1 isOn 1 0 :1:6 
+`uc 1 offPrepared 1 0 :1:7 
+]
+"67
+[v handleSceneOff@scp scp `*.39S1352  1 a 2 52 ]
+"65
+[v handleSceneOff@scene scene `uc  1 a 1 wreg ]
+[v handleSceneOff@mode mode `uc  1 p 1 50 ]
+"67
+[v handleSceneOff@scene scene `uc  1 a 1 51 ]
+"92
+} 0
+"161 D:\GitHub\LightControl\mplab\dimengine.c
+[v _initDimToZero initDimToZero `(v  1 e 1 0 ]
+{
+[v initDimToZero@scene scene `uc  1 a 1 wreg ]
+[s S2568 . 2 `uc 1 fraction 1 0 `uc 1 level 1 1 ]
+"165
+[u S2571 . 2 `ui 1 calc 2 0 `S2568 1 level 2 0 ]
+[s S2574 _deChannel 6 `S2571 1 level 2 0 `uc 1 dimSteps 1 2 `i 1 increment 2 3 `uc 1 delay 1 5 :5:0 
+`uc 1 nextDimState 1 5 :3:5 
+]
+[v initDimToZero@cp cp `*.39S2574  1 a 2 48 ]
+"163
+[v initDimToZero@i i `uc  1 a 1 47 ]
+"161
+[v initDimToZero@scene scene `uc  1 a 1 wreg ]
+"165
+[v initDimToZero@scene scene `uc  1 a 1 46 ]
+"180
+} 0
+"182
+[v _dimStop dimStop `(v  1 e 1 0 ]
+{
+[s S2568 . 2 `uc 1 fraction 1 0 `uc 1 level 1 1 ]
+"186
+[u S2571 . 2 `ui 1 calc 2 0 `S2568 1 level 2 0 ]
+[s S2574 _deChannel 6 `S2571 1 level 2 0 `uc 1 dimSteps 1 2 `i 1 increment 2 3 `uc 1 delay 1 5 :5:0 
+`uc 1 nextDimState 1 5 :3:5 
+]
+[v dimStop@cp cp `*.39S2574  1 a 2 13 ]
+"184
+[v dimStop@i i `uc  1 a 1 12 ]
+"182
+[v dimStop@mode mode `uc  1 p 1 11 ]
+"198
+} 0
+"28 D:\GitHub\LightControl\mplab\protocol.c
+[v _buttonByteReceived buttonByteReceived `(v  1 e 1 0 ]
+{
+[v buttonByteReceived@b b `uc  1 a 1 wreg ]
+"31
+[v buttonByteReceived@code code `uc  1 a 1 7 ]
+"30
+[v buttonByteReceived@checksum checksum `uc  1 a 1 6 ]
+"28
+[v buttonByteReceived@b b `uc  1 a 1 wreg ]
+"38
+[v buttonByteReceived@b b `uc  1 a 1 8 ]
+"63
+} 0
+"194 D:\GitHub\LightControl\mplab\buttons.c
+[v _decodeButton decodeButton `(v  1 e 1 0 ]
+{
+[v decodeButton@code code `uc  1 a 1 wreg ]
+[s S799 button 3 `uc 1 buttonNumber 1 0 `uc 1 assignedScene 1 1 `uc 1 buttonMode 1 2 :1:0 
+`uc 1 isActive 1 2 :1:1 
+`uc 1 watchdog 1 2 :4:2 
+]
+"196
+[v decodeButton@bp bp `*.39S799  1 a 2 4 ]
+"194
+[v decodeButton@code code `uc  1 a 1 wreg ]
+"196
+[v decodeButton@code code `uc  1 a 1 3 ]
+"208
+} 0
+"107 D:\GitHub\LightControl\mplab\scenes.c
+[v _incrementSceneCounter incrementSceneCounter `(v  1 e 1 0 ]
+{
+[v incrementSceneCounter@scene scene `uc  1 a 1 wreg ]
+[v incrementSceneCounter@scene scene `uc  1 a 1 wreg ]
+"109
+[v incrementSceneCounter@scene scene `uc  1 a 1 12 ]
+"113
+} 0
+"36
+[v _handleSceneOn handleSceneOn `(v  1 e 1 0 ]
+{
+[v handleSceneOn@scene scene `uc  1 a 1 wreg ]
+[s S1352 _scenecontrol 1 `uc 1 onCount 1 0 :6:0 
+`uc 1 isOn 1 0 :1:6 
+`uc 1 offPrepared 1 0 :1:7 
+]
+"38
+[v handleSceneOn@scp scp `*.39S1352  1 a 2 1 ]
+"36
+[v handleSceneOn@scene scene `uc  1 a 1 wreg ]
+[v handleSceneOn@mode mode `uc  1 p 1 57 ]
+"38
+[v handleSceneOn@scene scene `uc  1 a 1 0 ]
+"59
+} 0
+"141 D:\GitHub\LightControl\mplab\dimengine.c
+[v _prepareDim prepareDim `(v  1 e 1 0 ]
+{
+[v prepareDim@scene scene `uc  1 a 1 wreg ]
+[s S2568 . 2 `uc 1 fraction 1 0 `uc 1 level 1 1 ]
+"145
+[u S2571 . 2 `ui 1 calc 2 0 `S2568 1 level 2 0 ]
+[s S2574 _deChannel 6 `S2571 1 level 2 0 `uc 1 dimSteps 1 2 `i 1 increment 2 3 `uc 1 delay 1 5 :5:0 
+`uc 1 nextDimState 1 5 :3:5 
+]
+[v prepareDim@cp cp `*.39S2574  1 a 2 32 ]
+"143
+[v prepareDim@i i `uc  1 a 1 31 ]
+"141
+[v prepareDim@scene scene `uc  1 a 1 wreg ]
+"145
+[v prepareDim@scene scene `uc  1 a 1 30 ]
+"157
+} 0
+"191 D:\GitHub\LightControl\mplab\scenes.c
+[v _readSceneTransparency readSceneTransparency `(uc  1 e 1 0 ]
+{
+[v readSceneTransparency@scene scene `uc  1 a 1 wreg ]
+"194
+[v readSceneTransparency@baseAdress baseAdress `ui  1 a 2 27 ]
+"193
+[v readSceneTransparency@transparency transparency `uc  1 a 1 29 ]
+"191
+[v readSceneTransparency@scene scene `uc  1 a 1 wreg ]
+[v readSceneTransparency@channel channel `uc  1 p 1 25 ]
+"194
+[v readSceneTransparency@scene scene `uc  1 a 1 26 ]
+"199
+} 0
+"108 D:\GitHub\LightControl\mplab\dimengine.c
+[v _initDimToTargetScene initDimToTargetScene `(v  1 e 1 0 ]
+{
+[v initDimToTargetScene@scene scene `uc  1 a 1 wreg ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+"110
+[v initDimToTargetScene@sc sc `S1385  1 a 3 52 ]
+[s S2568 . 2 `uc 1 fraction 1 0 `uc 1 level 1 1 ]
+"113
+[u S2571 . 2 `ui 1 calc 2 0 `S2568 1 level 2 0 ]
+[s S2574 _deChannel 6 `S2571 1 level 2 0 `uc 1 dimSteps 1 2 `i 1 increment 2 3 `uc 1 delay 1 5 :5:0 
+`uc 1 nextDimState 1 5 :3:5 
+]
+[v initDimToTargetScene@cp cp `*.39S2574  1 a 2 55 ]
+"111
+[v initDimToTargetScene@i i `uc  1 a 1 51 ]
+"108
+[v initDimToTargetScene@scene scene `uc  1 a 1 wreg ]
+[v initDimToTargetScene@nextDimState nextDimState `E5812  1 p 1 46 ]
+"113
+[v initDimToTargetScene@scene scene `uc  1 a 1 48 ]
+"139
+} 0
+"163 D:\GitHub\LightControl\mplab\scenes.c
+[v _readSceneChannel readSceneChannel `(v  1 e 1 0 ]
+{
+[v readSceneChannel@scene scene `uc  1 a 1 wreg ]
+"165
+[v readSceneChannel@baseAdress baseAdress `ui  1 a 2 29 ]
+"163
+[v readSceneChannel@scene scene `uc  1 a 1 wreg ]
+[v readSceneChannel@channel channel `uc  1 p 1 25 ]
+[s S1385 _scenechannel 3 `uc 1 level 1 0 `uc 1 isTransparent 1 1 `uc 1 dimSpeed 1 2 ]
+[v readSceneChannel@scp scp `*.39S1385  1 p 2 26 ]
+"165
+[v readSceneChannel@scene scene `uc  1 a 1 28 ]
+"168
+} 0
+"152
+[v _sceneAdress sceneAdress `(ui  1 e 2 0 ]
+{
+[v sceneAdress@scene scene `uc  1 a 1 wreg ]
+"154
+[v sceneAdress@baseAdress baseAdress `ui  1 a 2 20 ]
+"152
+[v sceneAdress@scene scene `uc  1 a 1 wreg ]
+[v sceneAdress@channel channel `uc  1 p 1 17 ]
+"154
+[v sceneAdress@scene scene `uc  1 a 1 19 ]
+"157
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 15 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 11 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 13 ]
+"53
+} 0
+"82 D:\GitHub\LightControl\mplab\massStorage.c
+[v _HDByteReadI2C HDByteReadI2C `(uc  1 e 1 0 ]
+{
+[v HDByteReadI2C@ControlByte ControlByte `uc  1 a 1 wreg ]
+[v HDByteReadI2C@ControlByte ControlByte `uc  1 a 1 wreg ]
+[v HDByteReadI2C@HighAdd HighAdd `uc  1 p 1 19 ]
+[v HDByteReadI2C@LowAdd LowAdd `uc  1 p 1 20 ]
+[v HDByteReadI2C@data data `*.39uc  1 p 2 21 ]
+[v HDByteReadI2C@length length `uc  1 p 1 23 ]
+"84
+[v HDByteReadI2C@ControlByte ControlByte `uc  1 a 1 24 ]
+"111
+} 0
+"132 D:\GitHub\LightControl\mplab\i2cmemory.c
+[v _i2cWrite i2cWrite `(c  1 e 1 0 ]
+{
+[v i2cWrite@dat dat `uc  1 a 1 wreg ]
+[v i2cWrite@dat dat `uc  1 a 1 wreg ]
+"134
+[v i2cWrite@dat dat `uc  1 a 1 12 ]
+"147
+} 0
+"184
+[v _i2cIdle i2cIdle `(v  1 e 1 0 ]
+{
+"188
+} 0
+"44
+[v _i2cStop i2cStop `(v  1 e 1 0 ]
+{
+"49
+} 0
+"31
+[v _i2cStart i2cStart `(v  1 e 1 0 ]
+{
+"36
+} 0
+"57
+[v _i2cRestart i2cRestart `(v  1 e 1 0 ]
+{
+"62
+} 0
+"92
+[v _i2cNak i2cNak `(v  1 e 1 0 ]
+{
+"94
+[v i2cNak@timeout timeout `ui  1 a 2 11 ]
+"105
+} 0
+"233
+[v _i2cGets i2cGets `(c  1 e 1 0 ]
+{
+[v i2cGets@rdptr rdptr `*.39uc  1 p 2 16 ]
+[v i2cGets@length length `uc  1 p 1 18 ]
+"256
+} 0
+"164
+[v _i2cRead i2cRead `(uc  1 e 1 0 ]
+{
+"166
+[v i2cRead@timeout timeout `ui  1 a 2 13 ]
+"168
+[v i2cRead@temp temp `uc  1 a 1 15 ]
+"182
+} 0
+"113
+[v _i2cWait i2cWait `(v  1 e 1 0 ]
+{
+"115
+[v i2cWait@timeout timeout `ui  1 a 2 11 ]
+"123
+} 0
+"207 D:\GitHub\LightControl\mplab\dimengine.c
+[v _calcAndSetIncrement calcAndSetIncrement `(v  1 e 1 0 ]
+{
+"209
+[v calcAndSetIncrement@help help `f  1 a 3 43 ]
+[s S2568 . 2 `uc 1 fraction 1 0 `uc 1 level 1 1 ]
+"207
+[u S2571 . 2 `ui 1 calc 2 0 `S2568 1 level 2 0 ]
+[s S2574 _deChannel 6 `S2571 1 level 2 0 `uc 1 dimSteps 1 2 `i 1 increment 2 3 `uc 1 delay 1 5 :5:0 
+`uc 1 nextDimState 1 5 :3:5 
+]
+[v calcAndSetIncrement@cp cp `*.39S2574  1 p 2 38 ]
+[v calcAndSetIncrement@targetLevel targetLevel `uc  1 p 1 40 ]
+"216
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 22 ]
+"30
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 21 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 25 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 20 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 11 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 29 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 33 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 32 ]
+[v ___ftmul@exp exp `uc  1 a 1 28 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 19 ]
+[v ___ftmul@f2 f2 `f  1 p 3 22 ]
+"157
+} 0
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 33 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 37 ]
+[v ___ftdiv@exp exp `uc  1 a 1 36 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 32 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 23 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 26 ]
+"86
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 22 ]
+"32
+[v ___awtoft@c c `i  1 p 2 19 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 11 ]
+[v ___ftpack@exp exp `uc  1 p 1 14 ]
+[v ___ftpack@sign sign `uc  1 p 1 15 ]
+"86
+} 0
+"14 D:\GitHub\LightControl\mplab\buttons.h
+[s S799 button 3 `uc 1 buttonNumber 1 0 `uc 1 assignedScene 1 1 `uc 1 buttonMode 1 2 :1:0 
+`uc 1 isActive 1 2 :1:1 
+`uc 1 watchdog 1 2 :4:2 
+]
+"105 D:\GitHub\LightControl\mplab\buttons.c
+[v _findButton findButton `(*.39S799  1 e 2 0 ]
+{
+[v findButton@code code `uc  1 a 1 wreg ]
+"107
+[v findButton@i i `uc  1 a 1 15 ]
+"105
+[v findButton@code code `uc  1 a 1 wreg ]
+"109
+[v findButton@code code `uc  1 a 1 14 ]
+"117
+} 0
+"350 D:\GitHub\LightControl\mplab\interrupts.c
+[v _low_isr low_isr `IIL(v  1 e 1 0 ]
+{
+"372
+} 0
+"27
+[v _high_isr high_isr `II(v  1 e 1 0 ]
+{
+"342
+} 0
+"54 D:\GitHub\LightControl\mplab\dmx.c
+[v _sendDMX sendDMX `(v  1 e 1 0 ]
+{
+"98
+} 0
+"225 D:\GitHub\LightControl\mplab\dimengine.c
+[v i2_getChannelLevel getChannelLevel `(uc  1 e 1 0 ]
+{
+[v i2getChannelLevel@channel channel `uc  1 a 1 wreg ]
+[v i2getChannelLevel@channel channel `uc  1 a 1 wreg ]
+"227
+[v i2getChannelLevel@channel channel `uc  1 a 1 3 ]
+"228
+} 0
+"428 D:\GitHub\LightControl\mplab\i2cslave.c
+[v _i2cSlaveHandler i2cSlaveHandler `(v  1 e 1 0 ]
+{
+"430
+[v i2cSlaveHandler@data data `uc  1 a 1 3 ]
+"481
+} 0
+"107 D:\GitHub\LightControl\mplab\fifo.c
+[v i2_fifo3Empty fifo3Empty `(uc  1 e 1 0 ]
+{
+"109
+} 0
+"71
+[v _fifo3Get fifo3Get `(uc  1 e 1 0 ]
+{
+"73
+} 0
+"86
+[v _fifo2Put fifo2Put `(v  1 e 1 0 ]
+{
+[v fifo2Put@in in `uc  1 a 1 wreg ]
+[v fifo2Put@in in `uc  1 a 1 wreg ]
+[v fifo2Put@in in `uc  1 a 1 2 ]
+"88
+} 0
+"82
+[v _fifo1Put fifo1Put `(v  1 e 1 0 ]
+{
+[v fifo1Put@in in `uc  1 a 1 wreg ]
+[v fifo1Put@in in `uc  1 a 1 wreg ]
+[v fifo1Put@in in `uc  1 a 1 2 ]
+"84
+} 0
